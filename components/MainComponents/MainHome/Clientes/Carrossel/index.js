@@ -1,4 +1,4 @@
-import AbInBev from '../../../../../assets/images/Clientes/AbInBev.png'
+import ABinbev from '../../../../../assets/images/Clientes/ABinbev.png'
 import Ambev from '../../../../../assets/images/Clientes/Ambev.png'
 import ArcelorMittal from '../../../../../assets/images/Clientes/ArcelorMittal.png'
 import Bekaert from '../../../../../assets/images/Clientes/Bekaert.png'
@@ -22,7 +22,7 @@ export function Carrossel() {
         <div className="carousel_slider w-full flex relative h-20 lg:h-28 my-5">
             <ul className="carousel_list w-screen h-full absolute list-none flex items-center justify-around top-1/2 -translate-y-1/2">
                 <li className="carousel_item max-w-[240px] min-w-[240px] px-10">
-                    <Image src={AbInBev} alt="AbInBev Logo"/>
+                    <Image src={ABInBev} alt="ABInBev Logo"/>
                 </li>
                 <li className="carousel_item max-w-[240px] min-w-[240px] px-10">
                     <Image src={Ambev} alt="Ambev Logo"/>
