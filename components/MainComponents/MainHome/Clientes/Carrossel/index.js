@@ -1,4 +1,4 @@
-import ABinbev from '../../../../../assets/images/Clientes/ABinbev.png'
+import ABInBev from '../../../../../assets/images/Clientes/ABInBev.png'
 import Ambev from '../../../../../assets/images/Clientes/Ambev.png'
 import ArcelorMittal from '../../../../../assets/images/Clientes/ArcelorMittal.png'
 import Bekaert from '../../../../../assets/images/Clientes/Bekaert.png'
