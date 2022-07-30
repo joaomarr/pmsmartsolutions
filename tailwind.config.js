@@ -10,6 +10,9 @@ module.exports = {
       backgroundImage: {
         'bg-hero': "url('https://t0.gstatic.com/licensed-image?q=tbn:ANd9GcT5YVqUhcNmtvEspaHJIdQ-IlJrQJh-N2Inf7IUREVdb_P9aX6wmmrLyYTRHNdYlceRU61rYR5qFjiaBPFGJ3o')",
       },
+      screens: {
+        'aboutBreaking': '1380px',
+      },
       colors: {
         blue: {
           500: '#014DAB',
