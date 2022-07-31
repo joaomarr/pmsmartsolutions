@@ -20,7 +20,7 @@ import { useEffect } from 'react'
 
 export function Carrossel() {
     useEffect(() => {
-        // carousel()
+        carousel()
     }, [])
 
     function carousel() {
