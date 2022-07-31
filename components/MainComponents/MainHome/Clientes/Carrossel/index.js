@@ -3,7 +3,7 @@ import { CarroselList } from './CarroselList';
 
 export function Carrossel() {
     useEffect(() => {
-        carousel()
+        // carousel()
     }, [])
 
     function carousel() {

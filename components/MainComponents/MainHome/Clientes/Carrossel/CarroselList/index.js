@@ -20,55 +20,55 @@ import Image from 'next/image'
 export function CarroselList() {
     return (
         <ul className="carousel_list h-full absolute left-0 list-none flex items-center justify-around top-1/2 -translate-y-1/2">
-            <li className="carousel_item w-40 px-8 lg:w-60 lg:px-10">
+            <li className="carousel_item w-24 px-4 lg:w-60 lg:px-10">
                 <Image src={ABInBev} alt="ABInBev Logo"/>
             </li>
-            <li className="carousel_item w-40 px-8 lg:w-60 lg:px-10">
+            <li className="carousel_item w-24 px-4 lg:w-60 lg:px-10">
                 <Image src={Ambev} alt="Ambev Logo"/>
             </li>
-            <li className="carousel_item w-40 px-8 lg:w-60 lg:px-10">
+            <li className="carousel_item w-24 px-4 lg:w-60 lg:px-10">
                 <Image src={ArcelorMittal} alt="ArcelorMittal Logo"/>
             </li>
-            <li className="carousel_item w-40 px-8 lg:w-60 lg:px-10">
+            <li className="carousel_item w-24 px-4 lg:w-60 lg:px-10">
                 <Image src={Bekaert} alt="Bekaert Logo"/>
             </li>
-            <li className="carousel_item w-40 px-8 lg:w-60 lg:px-10">
+            <li className="carousel_item w-24 px-4 lg:w-60 lg:px-10">
                 <Image src={Brametal} alt="Brametal Logo"/>
             </li>
-            <li className="carousel_item w-40 px-8 lg:w-60 lg:px-10">
+            <li className="carousel_item w-24 px-4 lg:w-60 lg:px-10">
                 <Image src={BrasilKirin} alt="BrasilKirin Logo"/>
             </li>
-            <li className="carousel_item w-40 px-8 lg:w-60 lg:px-10">
+            <li className="carousel_item w-24 px-4 lg:w-60 lg:px-10">
                 <Image src={Gerdau} alt="Gerdau Logo"/>
             </li>
-            <li className="carousel_item w-40 px-8 lg:w-60 lg:px-10">
+            <li className="carousel_item w-24 px-4 lg:w-60 lg:px-10">
                 <Image src={Heineken} alt="Heineken Logo"/>
             </li>
-            <li className="carousel_item w-40 px-8 lg:w-60 lg:px-10">
+            <li className="carousel_item w-24 px-4 lg:w-60 lg:px-10">
                 <Image src={Incomisa} alt="Incomisa Logo"/>
             </li>
-            <li className="carousel_item w-40 px-8 lg:w-60 lg:px-10">
+            <li className="carousel_item w-24 px-4 lg:w-60 lg:px-10">
                 <Image src={IrmãosMachado} alt="IrmãosMachado Logo"/>
             </li>
-            <li className="carousel_item w-40 px-8 lg:w-60 lg:px-10">
+            <li className="carousel_item w-24 px-4 lg:w-60 lg:px-10">
                 <Image src={LafargeHolcim} alt="LafargeHolcim Logo"/>
             </li>
-            <li className="carousel_item w-40 px-8 lg:w-60 lg:px-10">
+            <li className="carousel_item w-24 px-4 lg:w-60 lg:px-10">
                 <Image src={Linergia} alt="Linergia Logo"/>
             </li>
-            <li className="carousel_item w-40 px-8 lg:w-60 lg:px-10">
+            <li className="carousel_item w-24 px-4 lg:w-60 lg:px-10">
                 <Image src={NeoEnergia} alt="NeoEnergia Logo"/>
             </li>
-            <li className="carousel_item w-40 px-8 lg:w-60 lg:px-10">
+            <li className="carousel_item w-24 px-4 lg:w-60 lg:px-10">
                 <Image src={Samarco} alt="Samarco Logo"/>
             </li>
-            <li className="carousel_item w-40 px-8 lg:w-60 lg:px-10">
+            <li className="carousel_item w-24 px-4 lg:w-60 lg:px-10">
                 <Image src={Tabocas} alt="Tabocas Logo"/>
             </li>
-            <li className="carousel_item w-40 px-8 lg:w-60 lg:px-10">
+            <li className="carousel_item w-24 px-4 lg:w-60 lg:px-10">
                 <Image src={Usiminas} alt="Usiminas Logo"/>
             </li>
-            <li className="carousel_item w-40 px-8 lg:w-60 lg:px-10">
+            <li className="carousel_item w-24 px-4 lg:w-60 lg:px-10">
                 <Image src={Vale} alt="Vale Logo"/>
             </li>
         </ul>
