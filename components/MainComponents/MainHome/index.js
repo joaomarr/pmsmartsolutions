@@ -1,6 +1,7 @@
 import { About } from "./About";
 import { Atuações } from "./Atuações";
 import { Clientes } from "./Clientes";
+import { Identity } from "./Identity";
 
 export function MainHome() {
     return (
@@ -8,6 +9,7 @@ export function MainHome() {
               <Atuações />
               <About />
               <Clientes />
+              <Identity />
         </main>
     )
 }
