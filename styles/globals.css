@@ -4,6 +4,7 @@
 
 html,
 body {
+  color: white;
   padding: 0;
   margin: 0;
   font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -87,12 +88,6 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  body {
-    color: white;
-  }
-}
-
 @media (max-height: 690px) and (max-width: 1280px) {
   .HomeHero {
     @apply pt-[75px] justify-start
@@ -102,5 +97,11 @@ a {
 @media (max-width: 880px) {
   .layout-padding {
     @apply px-8
+  }
+}
+
+@media (min-width: 1280px) {
+  .orçamento__section {
+    @apply layout-padding
   }
 }
