@@ -104,4 +104,14 @@ a {
   .orçamento__section {
     @apply layout-padding
   }
+
+  .charts {
+    @apply layout-padding
+  }
+}
+
+@media (min-width: 980px) {
+  .bg-bg-charts {
+    @apply layout-padding
+  }
 }
