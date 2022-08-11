@@ -1,4 +1,6 @@
 import { Charts } from "./Charts"
+import { GestaoIntegrada } from "./GestaoIntegrada"
+import { FocoEm } from "./FocoEm"
  
 export function GestãoENegócios() {
     return (
@@ -13,6 +15,10 @@ export function GestãoENegócios() {
             </div>
             <div className="w-full bg-bg-charts bg-center bg-cover"> 
                 <Charts />
+            </div>
+            <div className="flex flex-col-reverse layout-padding py-8 w-full lg:flex-row lg:justify-between">
+                <GestaoIntegrada />
+                <FocoEm />
             </div>
         </section>
     )
