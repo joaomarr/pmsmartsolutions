@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <meta name="color-scheme" content="light only"></meta>
+        
       </Head>
       <Layout>
         <Component {...pageProps} />
