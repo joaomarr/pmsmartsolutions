@@ -12,6 +12,15 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 .layout-padding {
   @apply px-32
 }
@@ -83,14 +92,12 @@ body {
   writing-mode: vertical-lr;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.animateFaixa {
+  @apply rounded-r-none rounded-l-lg; 
+  width: 100%;
+  transition-duration: 2.8s;
 }
 
-* {
-  box-sizing: border-box;
-}
 
 @media (max-height: 690px) and (max-width: 1280px) {
   .HomeHero {
