@@ -6,6 +6,7 @@ import { Instagram } from "../../../assets/elements/icons/Instagram"
 import { Facebook } from "../../../assets/elements/icons/Facebook"
 import { Linkedin } from "../../../assets/elements/icons/Linkedin"
 import Link from "next/link"
+import { SocialMedia } from "../SocialMedia"
 
 export function NavMenu() {
     const route = useRouter()
@@ -31,12 +32,7 @@ export function NavMenu() {
                 </Link>
             </div>
             <div className="absolute w-full bottom-16 flex flex-col items-center justify-center">
-                <span className="text-xs font-bold tracking-widest">SOCIAL-MEDIA</span>
-                <div className="flex py-6 px-24 justify-between w-full">
-                    <Facebook />
-                    <Instagram />
-                    <Linkedin />
-                </div>
+                <SocialMedia instagramColor="#121214" />
             </div>
             <CopyFooter />
         </div>

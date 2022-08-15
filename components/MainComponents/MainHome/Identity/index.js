@@ -3,7 +3,7 @@ import { ArrowLeft } from "../../../../assets/elements/icons/ArrowLeft"
 import { ArrowRight } from "../../../../assets/elements/icons/ArrowRight"
 
 export function Identity() {
-    const [currentSlide, setCurrentSlide] = useState(2)
+    const [currentSlide, setCurrentSlide] = useState(1)
 
     useEffect(() => {
         setSlide()

@@ -13,7 +13,7 @@ export function Faixas({text}) {
     }, [isVisible, ref, entry])
 
     return (
-        <li ref={ref} className="delay-200 transition-width ease-out w-10 rounded-r-lg h-14 bg-blue-500 flex justify-center items-center">
+        <li ref={ref} className="delay-200 transition-width duration-1000 ease-out w-10 rounded-r-lg h-14 bg-blue-500 flex justify-center items-center">
             <span className="text-lg transition delay-1000 duration-1000 ease-in opacity-0">
                 {text}
             </span>

@@ -11,7 +11,7 @@ export function About() {
                 <Faixa />
                 <div className="layout-padding w-full flex flex-col xl:justify-between lg:flex-row">
                     <div className='shadow-2xl w-100 lg:w-2/5 aboutBreaking:w-[35%]'>
-                        <Image src={AboutImg} alt="Sobre nós" layout="responsive" className='rounded-xl'/>
+                        <Image src={AboutImg} priority alt="Sobre nós" layout="responsive" className='rounded-xl'/>
                     </div>
                     <div className="pl-0 py-2 w-100 flex-col flex justify-center relative lg:w-3/5 aboutBreaking:w-[75%] lg:pl-20 xl:pl-24">
                         <div>

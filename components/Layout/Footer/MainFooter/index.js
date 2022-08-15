@@ -5,6 +5,7 @@ import { Facebook } from "../../../../assets/elements/icons/Facebook"
 import { Linkedin } from "../../../../assets/elements/icons/Linkedin"
 import { ArrowUp } from "../../../../assets/elements/icons/ArrowUp";
 import Link from "next/link";
+import { SocialMedia } from "../../SocialMedia";
 
 export function MainFooter() {
 
@@ -48,12 +49,7 @@ export function MainFooter() {
                 </div>
                 <div className="flex justify-between sm:justify-evenly flex-1">
                     <div className="text-center w-30 md:w-60">
-                        <span className="text-[12px] md:text-xl tracking-widest">SOCIAL-MEDIA</span>
-                        <div className="flex justify-between w-full p-2 md:p-10 ">
-                            <Facebook />
-                            <Instagram />
-                            <Linkedin />
-                        </div>
+                        <SocialMedia instagramColor="#014DAB"/>
                     </div>
                     <div className="hover:scale-105 transition ease-in cursor-pointer" onClick={() => scrollUp()}>
                         <ArrowUp />
