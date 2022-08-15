@@ -2,7 +2,7 @@ import { useEffect } from "react"
 import { useInView } from "react-hook-inview"
 
 export function Faixas({text}) {
-    const [ref, isVisible, entry] = useInView({unobserveOnEnter: true})
+    const [ref, isVisible, entry] = useInView({unobserveOnEnter: true, threshold: 0.2})
 
     useEffect(() => {
         if (isVisible) {

@@ -1,6 +1,12 @@
+import { motion } from "framer-motion"
+
 export function AboutDescription() {
     return (
-        <section className="relative w-full xl:w-3/5">
+        <motion.section className="relative w-full xl:w-3/5"
+            animate={{opacity: 1, y: 0}}
+            initial={{opacity: 0, y: 50}}
+            transition={{ duration: 1.25 }}
+        >
             <div className="layout-padding -translate-y-16 lg:-translate-y-28">
                 <div className="bg-gray-500 px-6 py-3 rounded-lg relative lg:static lg:py-6">
                     <h3 className="font-bold text-4xl h-16 md:text-5xl lg:h-24">
@@ -17,6 +23,6 @@ export function AboutDescription() {
                 </div>
             </div>
             <div className="w-full h-20 bg-yellow-500 absolute top-1/4 -z-10"></div>
-        </section>
+        </motion.section>
     )
 }

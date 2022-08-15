@@ -63,6 +63,7 @@ export function Contatos() {
                     layout="responsive" 
                     alt="Contact us image"
                     objectFit="scale-down"
+                    priority
                 />
             </div>
         </section>

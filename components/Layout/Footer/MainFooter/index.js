@@ -1,16 +1,12 @@
 import { WaveFrame } from "../../../../assets/elements/WaveFrame";
 import { WhiteLogo } from "../../../../assets/logos/WhiteLogo";
-import { Instagram } from "../../../../assets/elements/icons/Instagram"
-import { Facebook } from "../../../../assets/elements/icons/Facebook"
-import { Linkedin } from "../../../../assets/elements/icons/Linkedin"
 import { ArrowUp } from "../../../../assets/elements/icons/ArrowUp";
-import Link from "next/link";
 import { SocialMedia } from "../../SocialMedia";
+import Link from "next/link";
 
 export function MainFooter() {
 
     const scrollUp = () => {
-        console.log("scrolling");
         window.scrollTo({
             top: 0,
             behavior: "smooth"
@@ -32,7 +28,7 @@ export function MainFooter() {
                         <span className="uppercase text-[12px] tracking-widest sm:text-2xl">
                             Local
                         </span>
-                        <p className="text-[8px] font-thin sm:text-xl">
+                        <p className="text-xs font-thin sm:text-xl">
                             Av. Cel. Jove Soares Nogueira, <br></br>734 - Contagem - MG
                         </p>
                     </div>
@@ -40,7 +36,7 @@ export function MainFooter() {
                         <span className="uppercase tracking-widest text-[12px] sm:text-2xl">
                             LINKS
                         </span>
-                        <ul className="text-[8px] pl-4 md:pl-6 font-thin list-disc sm:text-xl ">
+                        <ul className="text-xs pl-4 md:pl-6 font-thin list-disc sm:text-xl ">
                             <li><Link href="/">Home</Link></li>
                             <li><Link href="/empresa">Empresa</Link></li>
                             <li><Link href="/contato">Contato</Link></li>

@@ -1,4 +1,5 @@
 import { GoogleMap, useLoadScript, MarkerF, InfoWindow } from "@react-google-maps/api";
+import { motion } from "framer-motion";
 
 export function Map() {
     const compCoords = { lat: -19.959, lng: -44.040 };
@@ -43,8 +44,12 @@ export function Map() {
     }
 
     return (
-        <section className="layout-padding w-full">
+        <motion.section className="layout-padding w-full"
+            animate={{opacity: 1, y: 0}}
+            initial={{opacity: 0, y: 50}}
+            transition={{ duration: 1.25 }}
+        >
             <MapComponent />
-        </section>
+        </motion.section>
     )
 }

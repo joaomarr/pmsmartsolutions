@@ -2,15 +2,12 @@ import { useRouter } from "next/router"
 import { useContext } from "react"
 import { MenuContext } from ".."
 import { CopyFooter } from "../Footer/CopyFooter"
-import { Instagram } from "../../../assets/elements/icons/Instagram"
-import { Facebook } from "../../../assets/elements/icons/Facebook"
-import { Linkedin } from "../../../assets/elements/icons/Linkedin"
-import Link from "next/link"
 import { SocialMedia } from "../SocialMedia"
+import Link from "next/link"
 
 export function NavMenu() {
-    const route = useRouter()
     const [isMenuOpen, setIsMenuOpen] = useContext(MenuContext)
+    const route = useRouter()
 
     return (
         <div className="h-screen w-100 bg-gray-500 sticky z-10 top-0 pt-28">

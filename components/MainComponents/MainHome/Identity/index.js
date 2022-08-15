@@ -1,12 +1,29 @@
 import { useState, useEffect } from "react"
 import { ArrowLeft } from "../../../../assets/elements/icons/ArrowLeft"
 import { ArrowRight } from "../../../../assets/elements/icons/ArrowRight"
+import { useInView } from "react-hook-inview"
+import { motion, useAnimation } from 'framer-motion';
 
 export function Identity() {
-    const [currentSlide, setCurrentSlide] = useState(1)
-
+    const [currentSlide, setCurrentSlide] = useState(2)
+    const [ref, inView] = useInView({unobserveOnEnter: true, threshold: 0.2})
+    const animation = useAnimation()
+    
+    console.log(currentSlide)
+    
     useEffect(() => {
         setSlide()
+        if (inView) {
+            animation.start({
+                y: 0,
+                opacity: 1,
+                transition: {
+                    duration: 1.25
+                }
+            })
+        } else {
+            animation.start({ y: 200, opacity: 0 })
+        }
     })
 
     const setSlide = () => {
@@ -21,24 +38,17 @@ export function Identity() {
         dotSelected.classList.add("dots__dot--active")
 
         let slides = document.querySelectorAll(".testimonials")
-        slides.forEach((s, i) => {
-            i++
-            if (i === currentSlide) {
-                s.style.transform = "translateX(0%)"
-            }
-            else if (i < currentSlide) {
-                s.style.transform = `translateX(${-100 * i}%)`
-            } else if (i > currentSlide) {
-                s.style.transform = `translateX(${100 * (i - 1)}%)`
-                if (i === 3) {
-                    s.style.transform = "translateX(100%)"
-                }
-            }
-        })
+        slides.forEach(
+            (s, i) => (s.style.transform = `translateX(${100 * (i - currentSlide + 1)}%)`)
+          );
     }
 
     return (
-        <section className="w-full flex flex-col justify-center items-center text-center mx-auto py-10 md:py-16">
+        <motion.section 
+            className="w-full flex flex-col justify-center items-center text-center mx-auto py-10 md:py-16"
+            animate={animation}
+            ref={ref}
+        >
             <h3 className="font-bold text-gray-500 text-3xl mb-10 md:text-5xl">
                 Nossa Identidade
             </h3>
@@ -91,7 +101,7 @@ export function Identity() {
                     </p>
                 </div>
                 <button className="absolute left-0" onClick={() => {
-                    if (currentSlide == 1) {
+                    if (currentSlide === 0) {
                         setCurrentSlide(3)
                     } else {
                         setCurrentSlide(currentSlide - 1)
@@ -100,7 +110,7 @@ export function Identity() {
                     <ArrowLeft />
                 </button>
                 <button className="absolute right-0" onClick={() => {
-                    if (currentSlide == 3) {
+                    if (currentSlide === 3) {
                         setCurrentSlide(1)
                     } else {
                         setCurrentSlide(currentSlide + 1)
@@ -114,6 +124,6 @@ export function Identity() {
                     <button className="dots__dot" data-dot="3" onClick={() => {setCurrentSlide(3)}}></button>
                 </div>
             </div>
-        </section>
+        </motion.section>
     )
 }

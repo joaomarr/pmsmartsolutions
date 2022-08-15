@@ -1,7 +1,6 @@
 import { createPortal }from 'react-dom';
 import { useEffect, useState } from "react";
 
-
 export function Titles({ children }) {
     const [mounted, setMounted] = useState(false)
 

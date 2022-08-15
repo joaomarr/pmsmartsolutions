@@ -1,8 +1,13 @@
 import { WhiteAbstractLogo } from "../../../assets/logos/WhiteAbstractLogo"
+import { motion } from "framer-motion"
 
 export function ContatoTitle() {
     return (
-        <section className="EmpresaHero layout-padding flex flex-col items-center justify-center h-full">
+        <motion.section className="EmpresaHero layout-padding flex flex-col items-center justify-center h-full"
+            animate={{opacity: 1, x: 0}}
+            initial={{opacity: 0, x: -50}}
+            transition={{ duration: 1.25 }}
+        >
             <div className="w-100 text-center xl:w-7/12">
                 <h1 className="font-black text-4xl pb-2 xl:pb-7 md:text-6xl">
                     Contatos
@@ -14,6 +19,6 @@ export function ContatoTitle() {
             <div className="max-w-md justify-center py-4 lg:w-96">
                 <WhiteAbstractLogo />
             </div>
-        </section>
+        </motion.section>
     )
 }

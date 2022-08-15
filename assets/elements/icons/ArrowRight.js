@@ -2,8 +2,8 @@ export function ArrowRight() {
     return (
       <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="33"
-      height="33"
+      width="25"
+      height="25"
       fill="none"
       viewBox="0 0 33 33"
     >
