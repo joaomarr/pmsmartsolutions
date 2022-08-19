@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        
+          <title>Home - PmSmartSolutions</title>
       </Head>
       <Layout>
         <Component {...pageProps} />
