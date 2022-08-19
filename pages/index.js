@@ -6,6 +6,9 @@ import Head from "next/head"
 export default function Home() {
   return (
     <>
+      <Head>
+          <title>PM Smart Solutions - Home</title>
+      </Head>
       <Titles>
         <HomeTitle />
       </Titles>

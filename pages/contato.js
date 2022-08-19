@@ -7,7 +7,7 @@ export default function Contato() {
     return (
       <>
         <Head>
-          <title>Contato - PmSmartSolutions</title>
+          <title>PM Smart Solutions - Contato</title>
         </Head>
         <Titles>
           <ContatoTitle />

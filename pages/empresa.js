@@ -7,7 +7,7 @@ export default function Empresa() {
     return (
       <>
         <Head>
-          <title>Empresa - PmSmartSolutions</title>
+          <title>PM Smart Solutions - Empresa</title>
         </Head>
         <Titles>
           <EmpresaTitle />
