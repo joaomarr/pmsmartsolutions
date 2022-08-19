@@ -10,10 +10,10 @@ export function SocialMedia({instagramColor}) {
                 <a href="#" target="_blank">
                     <Facebook />
                 </a>
-                <a href="#" target="_blank">
+                <a href="https://www.instagram.com/pmsmartsolutions/" target="_blank" rel="noreferrer">
                     <Instagram color={instagramColor} />
                 </a>
-                <a href="#" target="_blank">
+                <a href="https://www.linkedin.com/company/pm-smart-solutions-servi%C3%A7os-e-transportes-ltda/" target="_blank" rel="noreferrer">
                     <Linkedin />
                 </a>
             </div>
