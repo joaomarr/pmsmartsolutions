@@ -75,7 +75,7 @@ export function Identity() {
                         Nossa Visão
                     </h4>
                     <p className="leading-8 text-gray-500/90">
-                        Ser uma empresa reconhecida pela eficiência e qualidade em sua área de atuação,
+                        Ser uma empresa reconhecida pela eficiência em solução e qualidade,
                         priorizando sempre pela busca continua da melhoria dos serviços prestados a nossos clientes.
                     </p>
                 </div>
@@ -84,10 +84,9 @@ export function Identity() {
                         Nossos Valores
                     </h4>
                     <p className="leading-8 text-gray-500/90">
-                        Garantir aos clientes a melhor qualidade possível à prestação de serviços e investir continuamente no aperfeiçoamento de suas atividades e seus profissionais.
-                        Buscar inovações para melhor atender o cliente;
-                        Respeito e responsabilidade com o meio ambiente;
-                        Respeitar o ser humano e seus valores sem discriminação;
+                        Garantir aos nossos clientes qualidade nas prestações de serviços, investindo continuamente na capacitação dos nossos profissionais.
+                        Inovando para atender os clientes;
+                        Respeito e responsabilidade com o meio ambiente, o ser humano ee seus valores sem discriminação e às comunidades por onde trabalhamos;
                         Qualidade para atender as mais diversas necessidades do mercado;
                     </p>
                 </div>
@@ -96,8 +95,8 @@ export function Identity() {
                         Nossa Missao
                     </h4>
                     <p className="leading-8 text-gray-500/90">
-                        Atuar como referência na área de prestação de serviços, mantendo a excelência nos serviços
-                        presados, objetivando o crescimento contúnuo e a solidez financeira.
+                        Sermos referência no segmento de Logística e Prestação de serviços, com excelência e seriedade,
+                        para garantirmos o crescimento contúnuo e a solidez da empresa junto à seus clientes.
                     </p>
                 </div>
                 <button className="absolute left-0" onClick={() => {

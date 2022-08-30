@@ -11,7 +11,7 @@ export function Orçamento() {
                         Faça seu orçamento 
                     </h3>
                     <p className="pb-16 leading-6 text-sm 2xl:text-lg">
-                        Atuamos com mineração, siderurgia, cimenteira, construção civil, agrícola, linhas de transmissão e muito mais. Tudo para garantir que a sua empresa se torne muito mais competitiva e produtiva, independente do mercado exigido. Contamos com vasta experiência e profissionais adequados para te proporcionar o melhor atendimento. Entre em contato e faça agora mesmo o seu orçamento.
+                        Atuamos com mineração, siderurgia, cimenteira, construção civil, indústria de alimentos e bebidas, agrícola, linhas de transmissão e muito mais. Tudo para garantir que a sua empresa se torne muito mais competitiva num mercado cada vez mais exigente, independente do mercado exigido. Contamos com vasta experiência e profissionais adequados para te proporcionar o melhor atendimento. Entre em contato e faça agora mesmo o seu orçamento.
                     </p>
                     <div className="w-full flex justify-center lg:w-fit lg:justify-start lg:pb-0">
                         <SaberMaisBtn bg="gray" color="yellow" link="/contato" />
