@@ -21,9 +21,9 @@ export function About() {
                             <p className='pb-16 leading-6 text-xs 2xl:text-lg'>
                                 O Grupo Smart Solutions é uma empresa especializada em Transportes, Serviços e locação de máquinas e equipamentos desde 2006. Na Gestão da Cadeia de Suprimentos atuamos nos transportes Dedicados, Spot, Inbound, Outbound, Cross Docking, Distribuição, Armazenagem , Armazém Geral e movimentaçao de carga.
                                 <br></br><br></br>
-                                Trabalhamos para que nossos clientes se tornen mais competitivos, atraves de ganhos de produtividade, melhores soluçoes nos processos, reduçoes de custo globais e foco em suas atividades totalmente voltada para segurança nas operaçoes.
+                                Trabalhamos para que nossos clientes se tornen mais competitivos, através de ganhos de produtividade, melhores soluções nos processos, reduções de custo globais e foco em suas atividades totalmente voltada para segurança nas operações.
                                 <br></br><br></br>
-                                Para isso a empresa conta com equipamentos de última geraçao e profissionais capacitados, focados em garantir a satisfação do cliente.
+                                Para isso a empresa conta com equipamentos de última geração e profissionais capacitados, focados em garantir a satisfação do cliente.
                             </p>
                             <div className="w-full flex justify-center pb-12 lg:w-fit lg:justify-start lg:pb-0">
                                 <SaberMaisBtn bg="yellow" color="gray" link="/empresa" />
