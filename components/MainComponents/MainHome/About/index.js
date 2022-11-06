@@ -19,11 +19,13 @@ export function About() {
                                 Conheça um pouco sobre nós . . .
                             </h3>
                             <p className='pb-16 leading-6 text-xs 2xl:text-lg'>
-                                O Grupo Smart Solutions é uma empresa especializada em Transportes, Serviços e locação de máquinas e equipamentos desde 2006. Na Gestão da Cadeia de Suprimentos atuamos nos transportes Dedicados, Spot, Inbound, Outbound, Cross Docking, Distribuição, Armazenagem , Armazém Geral e movimentaçao de carga.
+                                A Smart Solutions é uma empresa especializada em Transportes, Serviços e Locação de máquinas e equipamentos desde 2006.
                                 <br></br><br></br>
-                                Trabalhamos para que nossos clientes se tornen mais competitivos, através de ganhos de produtividade, melhores soluções nos processos, reduções de custo globais e foco em suas atividades totalmente voltada para segurança nas operações.
+                                Na Cadeia de Suprimentos atuamos nos transportes Dedicados, Spot, Inbound, Outbound, Cross Docking, Distribuição, Armazenagem , Armazém Geral e movimentaçao de carga.
                                 <br></br><br></br>
-                                Para isso a empresa conta com equipamentos de última geração e profissionais capacitados, focados em garantir a satisfação do cliente.
+                                Trabalhamos para que nossos clientes se tornem mais competitivos, com ganho de produtividade, melhores soluções nos processos, redução de custo global e foco na segurança das operações e do meio ambiente.
+                                <br></br><br></br>
+                                A Smart Solutions dispõe de equipamentos de última geração e profissionais capacitados focados em atender a satisfação dos nossos clientes.
                             </p>
                             <div className="w-full flex justify-center pb-12 lg:w-fit lg:justify-start lg:pb-0">
                                 <SaberMaisBtn bg="yellow" color="gray" link="/empresa" />
