@@ -84,10 +84,10 @@ export function Identity() {
                         Nossos Valores
                     </h4>
                     <p className="leading-8 text-gray-500/90">
-                        Garantir aos nossos clientes qualidade nas prestações de serviços, investindo continuamente na capacitação dos nossos profissionais.
-                        Inovando para atender os clientes;
-                        Respeito e responsabilidade com o meio ambiente, o ser humano ee seus valores sem discriminação e às comunidades por onde trabalhamos;
-                        Qualidade para atender as mais diversas necessidades do mercado;
+                        Garantir aos clientes qualidade nas prestações de serviços, investindo continuamente na capacitação dos nossos profissionais.
+                        Inovando para atender;
+                        Respeito e responsabilidade com o meio ambiente, o ser humano e seus valores e às comunidades por onde trabalhamos;
+                        Buscando sempre atender as necessidades do mercado;
                     </p>
                 </div>
                 <div className="testimonials text-sm px-8 w-full absolute transition duration-1000 md:text-lg md:px-28" data-slide="3">

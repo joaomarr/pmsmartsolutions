@@ -13,7 +13,7 @@ export function Contatos() {
                 </p>
             </div>
              <div className="w-full flex flex-col py-10 text-start xl:flex-row xl:justify-between">
-                <div className="flex flex-col py-5">
+                <div className="flex flex-col px-5 xl:px-10 py-5">
                     <h5 className="text-sm lg:text-lg">
                         Departamento Comercial
                     </h5>
@@ -27,7 +27,7 @@ export function Contatos() {
                         (31) 2564-3339 
                     </span>
                 </div>
-                <div className="flex flex-col py-5 xl:text-center">
+                <div className="flex flex-col py-5 px-5 xl:px-10 xl:text-end">
                     <h5 className="text-sm lg:text-lg">
                         Outros
                     </h5>
@@ -42,7 +42,7 @@ export function Contatos() {
                     (31) 99211-8444 / 99241-8444 
                     </span>
                 </div>
-                <div className="flex flex-col py-5 xl:text-end">
+                {/* <div className="flex flex-col py-5 xl:text-end">
                     <h5 className="text-sm lg:text-lg">
                     Gerência Estrutural
                     </h5>
@@ -55,7 +55,7 @@ export function Contatos() {
                     <span className="text-xs lg:text-base text-blue-500">
                         (31) 2564-3339 / 99880-9579 
                     </span>
-                </div>
+                </div> */}
              </div>
             <div className="w-full max-h-80 overflow-hidden">
                 <Image 
